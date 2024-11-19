@@ -1,0 +1,17 @@
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "system-ui";
+  height: 100dvh;
+  display: grid;
+  place-content: center;
+}
+
+p, h2 {
+  margin: 0;
+}
